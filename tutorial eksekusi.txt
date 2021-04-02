@@ -1,4 +1,4 @@
-Install Subfinder & BugHost di Termux
+Install subfinder & bugscanner di Termux
 
 pkg update &&  upgrade
 
