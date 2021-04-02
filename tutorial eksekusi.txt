@@ -10,10 +10,6 @@ termux-setup-storage
 
 git clone https://github.com/boychongzen18/scanning
 
-~/go/bin/subfinder -h
-
-~/go/bin/subfinder -d target.com -o target.txt
-
 ##########################################################
 scanning
 
@@ -25,17 +21,13 @@ unzip -o bugscanner.zip
 
 rm -f go.zip bugscanner.zip
 
-mv -f go bughost 
+mv -f go bughost $HOME (klau gk masuk ke home) 
 
-#HOME
+cp -r go bughost $HOME (buat copy folder ke home) 
 
-chmod 700 -R go
+cd $home (kembali ke home) 
 
-chmod 700 -R bugscanner
-
-~/go/bin/subfinder -h
-
-~/go/bin/subfinder -d target.com -o target.txt
+chmod 700 -R go bugscanner
 
 cd bugscanner
 
@@ -43,8 +35,22 @@ python -m pip install -r requirements.txt
 
 python setup.py install
 
-bughost -h
+-/go/bin/subfinder -h (buat bantuan) 
 
-cd $home 
+~/go/bin/subfinder -d target.com -o target.txt
 
-bughost target.txt -p 443/80 -o target.txt
+bugscanner -h
+
+bugscanner target.txt -p 80 -o target.txt
+
+pilih port yang anda eksekusi diatas (80/443) 
+
+gtu aja caranya install & eksekusi bughost
+
+Salam kenal dari ujung timur
+
+
+Regards Boychongzen aka Xroot
+
+
+
