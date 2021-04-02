@@ -21,9 +21,9 @@ cd scanning
 
 unzip -o go.zip
 
-unzip -o bughost.zip
+unzip -o bugscanner.zip
 
-rm -f go.zip bughost.zip
+rm -f go.zip bugscanner.zip
 
 mv -f go bughost 
 
@@ -31,13 +31,13 @@ mv -f go bughost
 
 chmod 700 -R go
 
-chmod 700 -R bughost
+chmod 700 -R bugscanner
 
 ~/go/bin/subfinder -h
 
 ~/go/bin/subfinder -d target.com -o target.txt
 
-cd bughost
+cd bugscanner
 
 python -m pip install -r requirements.txt
 
