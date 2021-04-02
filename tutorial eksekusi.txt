@@ -1,5 +1,8 @@
 Install subfinder & bugscanner di Termux
 
+Autor Boychongzen aka Xroot
+===================================================
+
 pkg update &&  upgrade
 
 pkg install golang python php
