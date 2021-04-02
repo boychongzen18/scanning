@@ -1,0 +1,50 @@
+Install Subfinder & BugHost di Termux
+
+pkg update &&  upgrade
+
+pkg install golang python php
+
+pkg install git mc nano zip
+
+termux-setup-storage
+
+git clone https://github.com/boychongzen18/scanning
+
+~/go/bin/subfinder -h
+
+~/go/bin/subfinder -d target.com -o target.txt
+
+#############################
+scanning
+
+cd scanning
+
+unzip -o go.zip
+
+unzip -o bughost.zip
+
+rm -f go.zip bughost.zip
+
+mv -f go bughost 
+
+#HOME
+
+chmod 700 -R go
+
+chmod 700 -R bughost
+
+~/go/bin/subfinder -h
+
+~/go/bin/subfinder -d target.com -o target.txt
+
+cd bughost
+
+python -m pip install -r requirements.txt
+
+python setup.py install
+
+bughost -h
+
+cd $home 
+
+bughost target.txt -p 443/80 -o target.txt
