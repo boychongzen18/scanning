@@ -3,12 +3,6 @@
 
 # Author : Boychongzen aka Xroot
 
-# Scanning Subfinder Via Termux! 
-
-[be](https://raw.githubusercontent.com/boychongzen18/scanning/master/subfinder.jpg]!
-
-
-
 
 
 
