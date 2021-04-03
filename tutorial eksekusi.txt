@@ -38,11 +38,13 @@ python -m pip install -r requirements.txt
 
 python setup.py install
 
+cd #home (kembali ke home)
+
 -/go/bin/subfinder -h (buat bantuan) 
 
 ~/go/bin/subfinder -d target.com -o target.txt
 
-bugscanner -h
+bugscanner -h (buat bantuan) 
 
 bugscanner target.txt -p 80 -o target.txt
 
