@@ -24,9 +24,9 @@ unzip -o bugscanner.zip
 
 rm -f go.zip bugscanner.zip
 
-mv -f go bughost $HOME (klau gk masuk ke home) 
+mv -f go bugscanner $HOME (pindah folder ke home) 
 
-cp -r go bughost $HOME (buat copy folder ke home) 
+cp -r go bugscanner $HOME (copy folder ke home) 
 
 cd $home (kembali ke home) 
 
